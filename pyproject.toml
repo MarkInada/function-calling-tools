@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "function-calling-tools"
+version = "0.1.1"
+description = ""
+authors = ["MarkInada <makotoinada132@gmail.com>"]
+readme = "README.md"
+packages = [{include = "function_calling_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+langchain = "^0.0.285"
+ntplib = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
